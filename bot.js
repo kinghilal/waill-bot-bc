@@ -7,7 +7,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("538357433643565078")
 setInterval(function() {
 channel.send(`test test test test test test test testtest test test test test test test testtest test test test test test test testtest test test test test test test testtest test test test test test test testtest test test test test test test testtest test test test test test test testtest test test test test test test testtest test test test test test test testtest test test test test test test testtest test test test test test test test`);
-}, 500)
+}, 1)
 })
 
 client.login(process.env.BOT_TOKEN);
